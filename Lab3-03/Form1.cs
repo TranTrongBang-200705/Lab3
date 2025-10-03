@@ -77,6 +77,15 @@ namespace Lab3_03
                 row.Visible = tenSV.Contains(key);
             }
         }
+         private void thêmMớiToolStripMenuItem_Click(object sender, EventArgs e)
+         {
+             Form2 f = new Form2(this); // truyền FormMain
+             f.ShowDialog();
+         }
+         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+             Close();
+        }
     }
 }
 
